@@ -36,16 +36,19 @@ public struct MenuItemText {
     let selectedColor: UIColor
     let font: UIFont
     let selectedFont: UIFont
+    let numberOfLines: Int
     
     public init(text: String = "Menu",
                 color: UIColor = UIColor.lightGray,
                 selectedColor: UIColor = UIColor.black,
                 font: UIFont = UIFont.systemFont(ofSize: 16),
-                selectedFont: UIFont = UIFont.systemFont(ofSize: 16)) {
+                selectedFont: UIFont = UIFont.systemFont(ofSize: 16),
+                numberOfLines: Int = 1) {
         self.text = text
         self.color = color
         self.selectedColor = selectedColor
         self.font = font
         self.selectedFont = selectedFont
+        self.numberOfLines = numberOfLines
     }
 }

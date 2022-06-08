@@ -169,6 +169,7 @@ open class MenuItemView: UIView {
     fileprivate func updateLabel(_ label: UILabel, text: MenuItemText) {
         label.textColor = isSelected ? text.selectedColor : text.color
         label.font = isSelected ? text.selectedFont : text.font
+        label.numberOfLines = text.numberOfLines
     }
     
     fileprivate func setupImageView(_ image: UIImage) {
