@@ -111,9 +111,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ECE5307D1B6DEB18001CF201 /* Build configuration list for PBXNativeTarget "PagingMenuController" */;
 			buildPhases = (
+				ECE530641B6DEB18001CF201 /* Headers */,
 				ECE530621B6DEB18001CF201 /* Sources */,
 				ECE530631B6DEB18001CF201 /* Frameworks */,
-				ECE530641B6DEB18001CF201 /* Headers */,
 				ECE530651B6DEB18001CF201 /* Resources */,
 			);
 			buildRules = (
